@@ -13,13 +13,13 @@ public class Person {
 	private long id;
 	
 	private String name;
-	private int age;
+	private Integer age;
 	
 	public Person(){
 		super();
 	}
 	
-	public Person(String name, int age) {
+	public Person(String name, Integer age) {
 		this.name = name;
 		this.age = age;
 	}
@@ -38,7 +38,7 @@ public class Person {
 	public int getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 	

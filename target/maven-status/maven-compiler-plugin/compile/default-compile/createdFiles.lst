@@ -1,0 +1,7 @@
+com\example\DataBaseInit.class
+com\example\PostResult.class
+com\example\PersonRepository.class
+com\example\PersonController.class
+com\example\PersonTestProjectApplication.class
+com\example\Person.class
+com\example\Result.class
