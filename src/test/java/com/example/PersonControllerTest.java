@@ -75,9 +75,9 @@ public class PersonControllerTest {
 				.andExpect(jsonPath("$.persons[1].name").value("Lina"))
 				.andExpect(jsonPath("$.persons[2].name").value("Marnik"))
 				.andExpect(jsonPath("$.persons[2].age").value(20))
-				.andExpect(jsonPath("$.persons[3].name").value("Sophie"))
-				.andExpect(jsonPath("$.persons[4].name").value("Marnik"))
-				.andExpect(jsonPath("$.persons[4].age").value(21))
+				.andExpect(jsonPath("$.persons[3].name").value("Marnik"))
+				.andExpect(jsonPath("$.persons[3].age").value(21))
+				.andExpect(jsonPath("$.persons[4].name").value("Sophie"))
 				.andExpect(jsonPath("$.persons[5].name").value("Arthur"))
 				.andExpect(jsonPath("$.persons[6].name").value("Maxime"));
 	}
