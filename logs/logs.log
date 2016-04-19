@@ -21,3 +21,4 @@
 [DEBUG] 2016-04-19 10:40:00.270 [main] com.example.PersonController - Requesting all people sorted by name (age=null, name=null, sort=name)
 [DEBUG] 2016-04-19 10:40:00.310 [main] com.example.PersonController - Requesting people with name = Marnik sorted by age (age=null, name=Marnik, sort=age)
 [DEBUG] 2016-04-19 10:40:00.340 [main] com.example.PersonController - Requesting people with name = Marnik sorted by name (age=null, name=Marnik, sort=name)
+[DEBUG] 2016-04-19 14:32:26.083 [http-nio-8080-exec-4] com.example.PersonController - Requesting all people (age=null, name=null, sort=null)
