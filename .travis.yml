@@ -1,10 +1,10 @@
 language: java
 jdk:
   - oraclejdk8
+
+script: "mvn clean install -P h2"
   
 deploy:
  provider: heroku
  app: calm-bastion-15189
  api_key: f5a8dce8-a2bd-4fbf-876a-c4d7d0e024f3
- 
-script: "java -Dspring.profiles.active=h2"
